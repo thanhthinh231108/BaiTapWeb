@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Product{
+
+}
+
+.Product_Menu{
+    height: 72px;
+    padding: 16px;
+    border-bottom: 1px solid grey;
+    width: 1460px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Menu_left{
+    width: 650px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Menu_left p{
+   padding-top: 12px;
+}
+
+.Menu_right{
+    width: 488px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-4item_input input{
+    width: 333px;
+    height: 36px;
+    border-radius: 4px;
+}
+
+.menu_2item_right{
+    padding-top: 4px;
+    display: flex;
+    width: 140px;
+    justify-content: space-around;
+}
+.item_right_3img{
+    width: 68px;
+    padding-left: -4px;
+}
+
+/* Conten_Product*/
+
+.pading_left_right{
+    padding: 0px 140px;
+}
+
+.Conten_3menu_p{
+    display: flex;
+    width: 212px;
+    justify-content: space-around;
+}
+
+.Product_Conten{
+    padding-top: 48px;
+}
+.Conten_h1{
+    padding-top: 4px;
+    font-size: 28px;
+}
+.Conten_rating{
+    margin-top: 4px;
+    display: flex;
+    justify-content: start;
+}
+.Conten_rating_all{
+    display: flex;
+    justify-content: space-between;
+    width: 1182px;
+}
+.Conten_rating_left{
+    display: flex;
+}
+
+
+/* Conten_img*/
+/* lam lai bang grid*/
+
+.Conten_img{
+    display: flex;
+}
+.Conten_img_left{
+    width: 588px;
+}
+.Conten_img_right{
+    height: 434px;
+    width: 588px;
+    display: flex;
+    justify-content: space-around;
+}
+.Conten_img_right{
+
+}
+.Conten_img_right_right{
+    
+}
+.img_right img{
+    width: 280px;
+    height: 214px;
+}
+
+
+
+
+
