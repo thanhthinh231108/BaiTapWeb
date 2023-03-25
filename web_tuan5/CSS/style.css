@@ -4,14 +4,28 @@
     box-sizing: border-box;
 }
 
-#Product{
 
+.line_height{
+    line-height: 1.4;
+    font-size: 16px;
 }
+
+.color{
+    color: #A9A9A9;
+}
+.color_dam{
+    color: grey;
+}
+
+.color_Home{
+    color: #00CED1;
+}
+
 
 .Product_Menu{
     height: 72px;
     padding: 16px;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #EEE9E9;
     width: 1460px;
     display: flex;
     justify-content: space-between;
@@ -36,6 +50,8 @@
 .menu-4item_input input{
     width: 333px;
     height: 36px;
+    border:4px solid #dcdcdc;
+    background-color: #dcdcdc;
     border-radius: 4px;
 }
 
@@ -70,9 +86,11 @@
     font-size: 28px;
 }
 .Conten_rating{
-    margin-top: 4px;
+    margin-top: 12px;
     display: flex;
     justify-content: start;
+    margin-bottom: 16px;
+
 }
 .Conten_rating_all{
     display: flex;
@@ -82,10 +100,33 @@
 .Conten_rating_left{
     display: flex;
 }
+.Conten_rating_right{
+    width: 280px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Conten_rating_right_conten{
+    display: flex;
+
+}
+.Conten_rating_right_conten p{
+    margin-left: 8px;
+}
+.Conten_rating_right_conten img{
+    width: 20px;
+    height: 20px;
+}
+
+
 
 
 /* Conten_img*/
 /* lam lai bang grid*/
+
+
+.pading_top{
+    padding-top: 12px;
+}
 
 .Conten_img{
     display: flex;
@@ -93,8 +134,10 @@
 .Conten_img_left{
     width: 588px;
 }
+.img_right{
+
+}
 .Conten_img_right{
-    height: 434px;
     width: 588px;
     display: flex;
     justify-content: space-around;
@@ -107,10 +150,318 @@
 }
 .img_right img{
     width: 280px;
-    height: 214px;
+    height: 208px;
+}
+
+/* Conten_letter*/
+
+.Conten_letter{
+    margin-top: 36px;
+    display: flex;
+    margin-bottom: 52px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #EEE9E9;
+}
+
+.Conten_letter_left{
+    width: 777px;
+}
+.Conten_letter_left_p{
+    margin-top: 20px;
+}
+
+.Conten_letter_left_transport{
+    display: flex;
+    margin-top: 20px;
+}
+
+.Conten_letter_left_transport_left{
+    margin-right: 48px;
+}
+
+.Free{
+    display: flex;
+    justify-content: start;
+    margin-top: 16px;
+    
+    
+}
+.Free img{
+    padding-right: 8px;
+}
+
+/* right*/
+.Conten_letter_right_dola{
+    padding-top: 16px;
+    padding-left: 260px;
+    padding-bottom: 8px;
+}
+
+.Conten_letter_right_dola p{
+    color: #00CED1;
+    font-size: 32px;
+    
+}
+
+.Conten_letter_right{
+    width: 346px;
+    margin-left: 46px;
+    border: 1px solid #EEE9E9;
+    border-radius: 4px;
+    height: 390px;
+}
+
+.Conten_letter_right_boder{
+    width: 344px;
+    height: 388px;
+    text-align: center;
+    
+    
+}
+
+.Conten_letter_right_select{
+    margin-top: 12px;
+}
+
+.select_option{
+    background-color: #EEE9E9;
+    border: 1px solid #EEE9E9;
+    width: 300px;
+    height: 36px;
+    border-radius: 4px;
+}
+
+.Conten_letter_right_total{
+    
+    display: flex;
+    justify-content: space-between;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 24px;
+    margin-bottom: 16px;
+
+}
+
+
+.Conten_letter_right_buy button{
+    width: 298px;
+    height: 44px;
+    border-radius: 6px;
+    background-color: #00CED1;
+    border: 1px solid #00CED1;
+    color: white;
+}
+
+.Conten_letter_right_addToCart{
+    margin-top: 16px;
+}
+
+.Conten_letter_right_addToCart button{
+    width: 298px;
+    height: 44px;
+    display: flex;
+    margin-left: 22px;
+    background-color: white;
+    border: 2px solid aqua;
+    border-radius: 6px;
+    
+}
+.Conten_letter_right_addToCart button img {
+    width: 20px;
+    height: 20px;
+    margin-left: 100px;
+    margin-top: 12px;
+    
+}
+
+.Conten_letter_right_addToCart button p{
+    margin-top: 14px;
+    margin-left: 4px;
+    color: aqua;
+}
+
+/* Reviews */
+.Conten_reviews{
+    margin-left: 140px;
+    margin-right: 140px;
+    border-bottom: 1px solid #EEE9E9;
+    padding-bottom: 52px;
+}
+.Conten_reviews_last{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Conten_reviews_rating{
+    display: flex;
+    justify-content: space-between;
+    width: 240px;
+}
+
+.pading_4px {
+    padding-top: 4px;
 }
 
 
 
+.Conten_reviews_center_comment{
+    width: 1180px;
+    display: flex;
+}
+
+.Conten_reviews_center_comment_one_conten{
+    width: 208px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Conten_reviews_center_comment_one {
+    padding-top: 32px;
+}
+.Conten_reviews_center_comment_two p{
+    padding-top: 8px;
+    line-height: 1.4;
+}
+
+/* Related Product*/
+.Conten_related{
+    margin-top: 44px;
+    padding-bottom: 100px;
+    margin-left: 140px;
+    margin-right: 140px;
+    width: 1182px;
+    border-bottom: 1px solid #EEE9E9;
+    margin-bottom: 100px;
+    
+}
+
+.Conten_related_head{
+    display: flex;
+    justify-content: space-between;
+    width: 1182px;
+    padding-bottom: 28px;
+}
+
+.conten_related_bottom{
+    width: 1182px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conten_related_bottom_conten{
+    width: 280px;
+    height: 348px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #EEE9E9;
+}
 
 
+.mg_r_l_16px{
+    margin: 0px 16px;
+    padding-top: 8px;
+}
+.flex_between{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Contact Product*/
+
+.Contact_Product{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.Contact_Product img{
+    height: 42px;
+    width: 130px;
+    margin-bottom: 28px;
+}
+
+.Contact_Product h3{
+   margin-bottom: 16px;
+}
+
+
+.input_contact{
+    width: 240px;
+    height: 32px;
+    background-color: #EEE9E9;
+    border: 1px solid #EEE9E9;
+    border-radius: 2px;
+}
+
+.button_contact{
+    width: 100px;
+    height: 32px;
+    background-color: #00CED1;
+    border: 1px solid #00CED1;
+    border-radius: 2px;
+}
+
+.Contact_Product_input{
+    width: 320px;
+   display: flex;
+   margin: 0 auto;
+}
+
+.text_left{
+    text-align: left;
+}
+
+.Contact_Product_bottom{
+    padding-top: 60px;
+    width: 734px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;/*canh giửa */
+    
+}
+.Contact_Product_bottom p{
+    line-height: 2;
+}
+
+.product_bottom{
+
+}
+
+.product_resources{
+
+}
+
+.product_company{
+
+}
+
+.product_plans_pricing{
+    
+}
+
+/*Concat_Product*/
+
+.Product_concat{
+    width: 1182px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.concat_English{
+    width: 116px;
+    height: 32px;
+    background-color: #EEE9E9;
+    border-radius: 2px;
+    border: 1px solid #EEE9E9;
+}
+
+
+.mg_right_16px{
+    margin-right: 16px;
+}
+.concat_MXH{
+    display: flex;
+
+}
