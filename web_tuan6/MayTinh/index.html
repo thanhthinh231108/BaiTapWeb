@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<body>
+
+
+
+    <div class="calculator">
+        <div class="display">
+            <input type="text" id="result" readonly>
+
+        </div>
+        <div class="buttons">
+            <button onclick="clearALL()">C</button>
+            <button onclick="addPT('%')">%</button>
+            <button onclick="addPT('/')">/</button>
+            <button onclick="addPT('*')">*</button>
+            <button onclick="addPT('7')">7</button>
+            <button onclick="addPT('8')">8</button>
+            <button onclick="addPT('9')">9</button>
+            <button onclick="addPT('-')">-</button>
+            <button onclick="addPT('4')">4</button>
+            <button onclick="addPT('5')">5</button>
+            <button onclick="addPT('6')">6</button>
+            <button onclick="addPT('+')">+</button>
+            <button onclick="addPT('1')">1</button>
+            <button onclick="addPT('2')">2</button>
+            <button onclick="addPT('3')">3</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="addPT('0')">0</button>
+            <button onclick="addPT('.')">.</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+<script>
+    // getElêmntBuId dùng để lấy phần tử từ html 
+    const result = document.getElementById('result');
+
+    // hàm dùng để thực hiện cộng trừ nhân chia
+    // khai báo 1 cái value để gán giá trị khi nhập từ màn hình
+    function addPT(value) {
+        result.value += value; // value là giá trị được gán 
+    }
+    // hàm dùng để thực hiện phượng thức xóa 
+    function clearALL() {
+        result.value = '';
+    }
+
+    function calculate() {
+        result.value = eval(result.value); // eval hàm trả về giá trị của biểu thức trong nó
+    }
+</script>
+</body>
+
+</html>
