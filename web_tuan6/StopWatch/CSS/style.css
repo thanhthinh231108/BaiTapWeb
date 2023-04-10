@@ -1,0 +1,37 @@
+#display {
+    font-weight: 600;
+    font-size: 100px;
+    text-align: center;
+    background-color: #FF8C00;
+    width: 500px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+#button button {
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+#start {
+    border: none;
+    background-color:blue;
+    color: white;
+}
+
+#stop {
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+#reset {
+    border: none;
+    background-color: rgb(95, 199, 10);
+    color: white;
+}
+
+#button :hover {
+    background-color: white;
+    color: black;
+}
