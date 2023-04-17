@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .mg {
+            margin-top: 32px;
+        }
+        
+        #wrapper {
+            font-family: sans-serif;
+        }
+        
+        #menu-container {
+            display: flex;
+            justify-content: space-around;
+            height: 70px;
+        }
+        
+        #left {
+            display: flex;
+            align-items: center;
+            width: 30%;
+            justify-content: space-around;
+            text-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .search_menu {
+            height: 36px;
+            border-radius: 4px;
+        }
+        
+        #logo {
+            display: f;
+            text-align: center;
+            margin-top: 15px;
+        }
+        
+        #right {
+            display: flex;
+            align-items: center;
+            width: 33%;
+        }
+        
+        #text {
+            position: absolute;
+            margin-top: -320px;
+            margin-left: 200px;
+            font-size: 20px;
+        }
+        
+        #banner {}
+        
+        #menu_2 {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 65px;
+        }
+        
+        .menu_2_left {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 40%;
+        }
+        
+        .menu_2_text_2 {
+            color: white;
+            background-color: #459d7a;
+        }
+        
+        .menu_2_text_1 {
+            color: #459d7a;
+        }
+        
+        .menu_2_text_1,
+        .menu_2_text_2 {
+            font-size: 20px;
+            display: flex;
+            border-radius: 7px;
+            width: 120px;
+            height: 50px;
+            align-items: center;
+            justify-content: space-around;
+        }
+        
+        .menu_2_right {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 280px;
+        }
+        
+        .search {
+            height: 40px;
+            border-radius: 8px;
+        }
+        
+        #Product {}
+        
+        .p_img {
+            padding-top: 50px;
+            text-align: center;
+            width: 12%;
+            float: left;
+            margin-left: 82px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        
+        .img_1 {}
+        
+        .best_seller {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            margin-left: 180px;
+            background-color: rgb(227, 172, 71);
+            width: 80px;
+            height: 30px;
+            border-radius: 26px;
+            margin-top: -330px;
+            color: rgb(44, 40, 40);
+        }
+        
+        .new {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            margin-left: 208px;
+            background-color: rgb(227, 172, 71);
+            width: 45px;
+            height: 28px;
+            border-radius: 26px;
+            margin-top: -330px;
+            color: rgb(44, 40, 40);
+        }
+        
+        .text_product {
+            margin-top: 0;
+            text-align: left;
+        }
+        
+        .dola_icon {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .span_dola {
+            color: #459d7a;
+            font-size: 18px;
+            font-weight: 600;
+            position: absolute;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        
+        .dola h1 {
+            margin: 0px;
+            font-size: 35px;
+        }
+        
+        .dola {
+            display: flex;
+            justify-items: center;
+        }
+        
+        .icon {}
+        
+        #number {
+            padding-top: 100px;
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+        }
+        
+        .number_cl {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 20%;
+        }
+        
+        #footer {
+            width: 100%;
+            height: 300px;
+            margin-top: 100px;
+            display: flex;
+            justify-content: space-evenly;
+            color: white;
+            background-color: #323842;
+            padding: 160px 0;
+        }
+        
+        .footer_left {
+            display: flex;
+            width: 50%;
+            justify-content: space-around;
+        }
+        
+        .left_conten_footer {}
+        
+        .footer_right {}
+        
+        .email_button {
+            display: flex;
+            height: 40px;
+        }
+        
+        .img_4icon {
+            margin-top: 30px;
+        }
+        
+        .email_footer {
+            border-radius: 8px 0px 0px 8px;
+        }
+        
+        .button_footer {
+            border-radius: 0px 8px 8px 0px;
+            background-color: #459d7a;
+            color: white;
+        }
+        
+        select {
+            margin-top: 10px;
+            background-color: #323842;
+            color: white;
+            width: 120px;
+            height: 36px;
+            border-radius: 8px;
+        }
+        
+        option {}
+        
+        .btn-group {}
+        
+        .h_w {
+            height: 50px;
+            width: 120px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="menu-container">
+            <div id="left">
+                <div>Shop</div>
+                <div>Offers</div>
+                <div>Our story</div>
+                <div>Blog</div>
+            </div>
+            <div id="logo">
+                <img src="Img/logo.png" alt="">
+
+            </div>
+            <div id="right">
+
+                <input class="search_menu" type="search" value="search" placeholder="Search Product...">
+                <img src="Img/gioHang.png" alt="">
+                <img src="Img/nguoi.png" alt="">
+
+            </div>
+        </div>
+
+        <div id="banner">
+            <img src="Img/banner.png" alt="">
+            <div id="text">
+                <h1>Gift for your skin</h1>
+                <p>Aliquip fugiat ipsum nostrud ex et eu incididunt <br> quis minim dolore excepteur voluptate</p>
+            </div>
+
+        </div>
+
+        <div id="menu_2">
+            <div class="menu_2_left">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-primary h_w" style="background-color: #459d7a;border: 1px solid #459d7a;">All Products</button>
+                    <button type="button" class="btn btn-primary h_w" style="background-color: white;color: #459d7a;border: 1px solid white;">Face</button>
+                    <button type="button" class="btn btn-primary h_w" style="background-color: white;color: #459d7a;border: 1px solid white;">Body</button>
+                </div>
+
+            </div>
+            <div class="menu_2_right">
+                <input class="search" type="search" placeholder="Search Products....">
+                <button class="btn btn-warning" style="width: 90px;height: 40px;">Sort by</button>
+            </div>
+
+        </div>
+
+        <div id="Product">
+            <div class="Product_all">
+                <div class="p_img"><img class="img_1" src="Img/sp1.png" alt="">
+                    <p class="best_seller">Best-seller</p>
+                    <p class="text_product"><b> Product title </b><br> Labore sint ipsum dolore mollit</p>
+                    <div class="dola_icon">
+                        <div class="dola">
+                            <h1>$31
+                                <span class="span_dola">$42</span>
+                            </h1>
+                        </div>
+                        <div class="icon">
+                            <img src="Button 1 (3).png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="p_img"><img class="img_1" src="Img/sp_2.png" alt="">
+                    <p class="best_seller">Best-seller</p>
+                    <p class="text_product"><b> Product title </b><br> Labore sint ipsum dolore mollit</p>
+                    <div class="dola_icon">
+                        <div class="dola">
+                            <h1>$22
+                                <span class="span_dola">$28</span>
+                            </h1>
+                        </div>
+                        <div class="icon">
+                            <img src="Button 1 (3).png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="p_img"><img class="img_1" src="Img/sp_3.png" alt="">
+                    <p class="best_seller">Best-seller</p>
+                    <p class="text_product"><b> Product title </b><br> Labore sint ipsum dolore mollit</p>
+                    <div class="dola_icon">
+                        <div class="dola">
+                            <h1>$18
+                                <span class="span_dola">$26</span>
+                            </h1>
+                        </div>
+                        <div class="icon">
+                            <img src="Button 1 (3).png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="p_img"><img class="img_1" src="Img/sp_4.png" alt="">
+                    <p class="best_seller">Best-seller</p>
+                    <p class="text_product"><b> Product title </b><br> Labore sint ipsum dolore mollit</p>
+                    <div class="dola_icon">
+                        <div class="dola">
+                            <h1>$48
+                                <span class="span_dola">$56</span>
+                            </h1>
+                        </div>
+                        <div class="icon">
+                            <img src="Button 1 (3).png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="p_img"><img class="img_1" src="Img/Image 1 (5).png" alt="">
+
+                    <p class="text_product"><b> Product title </b><br> Labore sint ipsum dolore mollit</p>
+                    <div class="dola_icon">
+                        <div class="dola">
+                            <h1>$31
+
+                            </h1>
+                        </div>
+                        <div class="icon">
+                            <img src="Button 1 (3).png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="p_img"><img class="img_1" src="Img/Image 1 (6).png" alt="">
+                    <p class="new">new</p>
+                    <p class="text_product"><b> Product title </b><br> Labore sint ipsum dolore mollit</p>
+                    <div class="dola_icon">
+                        <div class="dola">
+                            <h1>$40
+                                <span class="span_dola">$48</span>
+                            </h1>
+
+                        </div>
+                        <div class="icon">
+                            <img src="Button 1 (3).png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="p_img"><img class="img_1" src="Img/Image 1 (7).png" alt="">
+
+                    <p class="text_product mg"><b> Product title </b><br> Labore sint ipsum dolore mollit</p>
+                    <div class="dola_icon">
+                        <div class="dola">
+                            <h1>$26
+
+                            </h1>
+                        </div>
+                        <div class="icon">
+                            <img src="Img/Button 1 (3).png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="p_img"><img class="img_1" src="Img/Image 1 (8).png" alt="">
+                    <p class="text_product"><b> Product title </b><br> Labore sint ipsum dolore mollit</p>
+                    <div class="dola_icon">
+                        <div class="dola">
+                            <h1>$18
+
+                            </h1>
+                        </div>
+                        <div class="icon">
+                            <img src="Img/Button 1 (3).png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p_img"><img class="img_1" src="Img/Image 1 (9).png" alt="">
+                    <p class="new">new</p>
+                    <p class="text_product"><b> Product title </b><br> Labore sint ipsum dolore mollit</p>
+                    <div class="dola_icon">
+                        <div class="dola">
+                            <h1>$52
+
+                            </h1>
+                        </div>
+                        <div class="icon">
+                            <img src="Img/Button 1 (3).png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="p_img"><img class="img_1" src="Img/Image 1 (10).png" alt="">
+
+                    <p class="text_product"><b> Product title </b><br> Labore sint ipsum dolore mollit</p>
+                    <div class="dola_icon">
+                        <div class="dola">
+                            <h1>$47
+                                <span class="span_dola">$42</span>
+                            </h1>
+                        </div>
+                        <div class="icon">
+                            <img src="Img/Button 1 (3).png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="p_img"><img class="img_1" src="Img/Image 1 (11).png" alt="">
+
+                    <p class="text_product"><b> Product title </b><br> Labore sint ipsum dolore mollit</p>
+                    <div class="dola_icon">
+                        <div class="dola">
+                            <h1>$44
+
+                            </h1>
+                        </div>
+                        <div class="icon">
+                            <img src="Img/Button 1 (3).png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="p_img"><img class="img_1" src="Img/Image 1 (12).png" alt="">
+                    <p class="new">new</p>
+                    <p class="text_product"><b> Product title </b><br> Labore sint ipsum dolore mollit</p>
+                    <div class="dola_icon">
+                        <div class="dola">
+                            <h1>$32
+                                <span class="span_dola">$42</span>
+                            </h1>
+                        </div>
+                        <div class="icon">
+                            <img src="Img/Button 1 (3).png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+        <div id="number">
+            <div class="number_cl">
+                <img src="Img/Button 1 (5).png" alt="">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <img src="Img/Button 1 (6).png" alt="">
+            </div>
+
+        </div>
+
+
+        <div id="footer">
+            <div class=" footer_left">
+                <div class="left_conten_footer">
+                    <h2>About</h2>
+                    <p>Home</p>
+                    <p>Shop</p>
+                    <p>Our story</p>
+                    <p>Blogs</p>
+                    <select name="" id="">
+                        <option value="0:">English</option>
+                    </select>
+
+                </div>
+                <div class="left_conten_footer">
+                    <h2>Help</h2>
+                    <p>Shipping & Returns</p>
+                    <p>Track Order</p>
+                    <p>FAQs</p>
+                </div>
+                <div class="left_conten_footer">
+                    <h2>Contact</h2>
+                    <p>Phone:</p>
+                    <p>(+84)358272536</p>
+                    <p>Email:</p>
+                    <p>thanhthinh110823@gmail.com</p>
+                </div>
+
+            </div>
+            <div class=" footer_right">
+
+                <h2>Receive new promotions</h2>
+                <p>Duis ea tempor commodo amet reprehende</p>
+                <div class="email_button">
+                    <input class="email_footer" type="email" placeholder="Input your email">
+                    <button class="button_footer">Subscribe</button>
+                </div>
+                <div class="img_4icon">
+                    <img src="Img/Twitter 1.png" alt="">
+                    <img src="Img/Facebook 1.png" alt="">
+                    <img src="Img/LinkedIn 1.png" alt="">
+                    <img src="Img/YouTube 1.png" alt="">
+                </div>
+                <div>
+                    <p> © 2022 Brand, Inc. • Privacy • Terms • Sitemap</p>
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
