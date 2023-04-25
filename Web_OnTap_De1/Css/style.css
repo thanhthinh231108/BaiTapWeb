@@ -1,0 +1,34 @@
+.banner {
+    width: 100%;
+}
+
+.page_all{
+    padding: 20px 10px;
+    background-color: #fff;
+    margin: 0px;
+    border-radius: 0px;
+    border-bottom: 1px #000000 solid;
+    border-top: 1px #000000 solid;
+    list-style: none;
+}
+.page_all>.active {
+    color: #337ab7;
+}
+
+.information {
+    text-align: center;
+    padding: 60px;
+    border-bottom: 1px #000000 solid;
+    border-top: 1px #000000 solid;
+}
+
+.danger {
+    color: red;
+}
+
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
